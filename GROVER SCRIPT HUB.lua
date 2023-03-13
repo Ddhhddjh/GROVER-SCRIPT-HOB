@@ -139,14 +139,14 @@ Tab:AddButton({
         })
 
         Tab:AddButton({
-            Name = "Dark Soul Birdie",
+            Name = "Dark Soul Birdie (not key)",
             Callback = function()
                 loadstring(Game:HttpGet"https://gitlab.com/turbohubz/loader.xyz/loader/-/raw/main/TurboHub-Loader")()
                 end 
                 })
 
                 Tab:AddButton({
-                    Name = "speed hub",
+                    Name = "speed hub (not key)",
                     Callback = function()
                         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
                         end 
