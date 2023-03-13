@@ -168,7 +168,7 @@ Tab:AddButton({
         Tab:AddButton({
             Name = "ProjectNexus(key)",
             Callback = function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
                 end 
                 })
 
