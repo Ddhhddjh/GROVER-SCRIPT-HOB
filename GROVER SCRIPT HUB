@@ -140,7 +140,7 @@ Tab:AddButton({
                 })
 
                 Tab:AddButton({
-                    Name = "Dark Soul Birdie",
+                    Name = "speed hub",
                     Callback = function()
                         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
                         end 
@@ -165,3 +165,4 @@ Tab:AddButton({
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
                 end 
                 })
+
