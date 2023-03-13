@@ -62,6 +62,12 @@ Tab:AddTextbox({
             game.Players.LocalPlayer.Character.Humanoid.HipHeight = tug
         end	  
     })
+    Tab:AddButton({
+        Name = "Keyboardgui",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
+        end    
+    })
     
 Tab:AddButton({
         Name = "fiy",
@@ -162,7 +168,7 @@ Tab:AddButton({
         Tab:AddButton({
             Name = "ProjectNexus(key)",
             Callback = function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
                 end 
                 })
 
