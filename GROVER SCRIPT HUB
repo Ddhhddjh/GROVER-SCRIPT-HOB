@@ -147,7 +147,7 @@ Tab:AddButton({
                         })
 
 local Tab = Window:MakeTab({
-    Name = "ProjectNexus",
+    Name = "Shindo Life",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -165,5 +165,3 @@ Tab:AddButton({
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
                 end 
                 })
-
-
