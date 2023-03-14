@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = 123:MakeWindow({Name = "GROVER HUB", HidePremium = true, SaveConfig = true, ConfigFolder = "123"})
+local Window = OrionLib:MakeWindow({Name = "GROVER SCRIPT HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "home",
