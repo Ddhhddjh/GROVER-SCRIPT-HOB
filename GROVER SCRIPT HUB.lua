@@ -183,7 +183,10 @@ Tab:AddButton({
                 Tab:AddButton({
                     Name = "Blue Lock(no key)",
                     Callback = function()
-                        loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
+                        pcall(function()
+    repeat wait() until game:IsLoaded()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()
+end)
                         end 
                         })
 
@@ -207,7 +210,7 @@ Tab:AddButton({
                                         end 
                                         })
 
-                                        Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs
+                                        
 
                                         Tab:AddButton({
                                             Name = "Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs",
