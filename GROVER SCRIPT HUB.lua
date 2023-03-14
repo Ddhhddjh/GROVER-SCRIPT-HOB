@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+9local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "GROVER SCRIPT HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
@@ -275,7 +275,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Void hub",
+	Name = "Void hub (key)",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
   	end    
