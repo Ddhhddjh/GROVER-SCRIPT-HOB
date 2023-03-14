@@ -16,9 +16,8 @@ Tab:AddButton({
 Tab:AddTextbox({
               Name = "dIscord",
               Default = "https://discord.gg/wK2CWEmT5Y",
-              TextDisappear = true,
+              TextDisappear = false,
               Callback = function(txt)
-              game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
               end	  
 })
 
@@ -222,14 +221,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "projects",
+	Name = "projects (no key)",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/localyactive/projects/main/folder/sense-ware"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "CloudHub",
+	Name = "CloudHub (key)",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
@@ -242,7 +241,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "VAPE",
+	Name = "VAPE (No key)",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()	
   	end    
