@@ -139,14 +139,14 @@ Tab:AddButton({
         })
 
         Tab:AddButton({
-            Name = "Dark Soul Birdie (not key)",
+            Name = "Dark Soul Birdie",
             Callback = function()
                 loadstring(Game:HttpGet"https://gitlab.com/turbohubz/loader.xyz/loader/-/raw/main/TurboHub-Loader")()
                 end 
                 })
 
                 Tab:AddButton({
-                    Name = "speed hub (not key)",
+                    Name = "speed hub",
                     Callback = function()
                         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
                         end 
@@ -168,7 +168,49 @@ Tab:AddButton({
         Tab:AddButton({
             Name = "ProjectNexus(key)",
             Callback = function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
                 end 
                 })
 
+                local Tab = Window:MakeTab({
+                    Name = "Car Dealership Tycoon",
+                    Icon = "rbxassetid://4483345998",
+                    PremiumOnly = false
+                })
+
+                Tab:AddButton({
+                    Name = "Blue Lock(no key)",
+                    Callback = function()
+                        loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
+                        end 
+                        })
+
+                        local Tab = Window:MakeTab({
+                            Name = "Bee Swarm Simulator",
+                            Icon = "rbxassetid://4483345998",
+                            PremiumOnly = false
+                        })
+
+                        Tab:AddButton({
+                            Name = "Cloud Hub (key)",
+                            Callback = function()
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+                                end 
+                                })
+
+                                Tab:AddButton({
+                                    Name = "meteor(no key)",
+                                    Callback = function()
+                                        loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+                                        end 
+                                        })
+
+                                        Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs
+
+                                        Tab:AddButton({
+                                            Name = "Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs",
+                                            Callback = function()
+                                                loadstring(game:HttpGet"https://pastebin.com/raw/JUG2jkc8")()
+                                                end 
+                                                })
+        
