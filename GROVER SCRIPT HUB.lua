@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = Grover beta:MakeWindow({Name = "GRODER scrtip hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "GROVER HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "123"})
 
 local Tab = Window:MakeTab({
         Name = "home",
@@ -20,7 +20,6 @@ local Tab = Window:MakeTab({
     Default = "https://discord.gg/wK2CWEmT5Y",
     TextDisappear = true,
     Callback = function(txt)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
     end	  
     })
 
