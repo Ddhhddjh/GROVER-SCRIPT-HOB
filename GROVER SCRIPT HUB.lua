@@ -15,12 +15,13 @@ local Tab = Window:MakeTab({
         end    
     })
     
-    Tab:AddTextbox({
-    Name = "discord",
-    Default = "https://discord.gg/wK2CWEmT5Y",
-    TextDisappear = true,
-    Callback = function(txt)
-    end	  
+Tab:AddTextbox({
+        Name = "dIscord",
+        Default = "https://discord.gg/wK2CWEmT5Y",
+        TextDisappear = true,
+        Callback = function(txt)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+        end	  
     })
 
     Tab:AddButton({
