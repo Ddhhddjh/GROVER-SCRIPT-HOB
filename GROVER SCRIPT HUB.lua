@@ -127,6 +127,7 @@ Tab:AddButton({
 
  local Tab = Window:MakeTab({
            Name = "Legends Of Speed ⚡",
+           Icon = "rbxassetid://4483345998",
            PremiumOnly = false
 })
 
