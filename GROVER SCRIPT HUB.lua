@@ -1,7 +1,6 @@
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "GRODER scrtip hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = Grover beta:MakeWindow({Name = "GRODER scrtip hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "home",
@@ -16,11 +15,14 @@ local Tab = Window:MakeTab({
         end    
     })
     
-    Tab:AddButton({
-    Name = "https://discord.gg/Fd6t5xjXvP",
-    Callback = function()
-        end    
-})
+    Tab:AddTextbox({
+    Name = "discord",
+    Default = "https://discord.gg/wK2CWEmT5Y",
+    TextDisappear = true,
+    Callback = function(txt)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+    end	  
+    })
 
     Tab:AddButton({
     Name = "wEbUS#3438",
@@ -213,4 +215,3 @@ Tab:AddButton({
                                                 loadstring(game:HttpGet"https://pastebin.com/raw/JUG2jkc8")()
                                                 end 
                                                 })
-        
