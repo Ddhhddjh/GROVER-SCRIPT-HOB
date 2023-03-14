@@ -247,3 +247,37 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+        Name = "Blox Fruits",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Mukuro hub pc (key)",
+	Callback = function()
+      	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()	
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mukuro hub pc mobile(No key)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()	
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blox Fruits: Auto Farm Coins",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Void hub",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
+  	end    
+})
+
