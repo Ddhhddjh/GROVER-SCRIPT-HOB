@@ -294,3 +294,25 @@ Tab:AddButton({
       	loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()	
   	end    
 })
+
+local Tab = Window:MakeTab({
+        Name = "Car Dealership Tycoon",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Golden Hub (no key)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wheel hub(key)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+  	end    
+})
+
+
