@@ -125,7 +125,7 @@ Tab:AddButton({
 }) 
 
  local Tab = Window:MakeTab({
-           Name = "Legends Of Speed ⚡",
+           Name = "Legends Of Speed",
            Icon = "rbxassetid://4483345998",
            PremiumOnly = false
 })
@@ -152,7 +152,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-         Name = "[UPDATE] Shindo Life",
+         Name = "Shindo Life",
          Icon = "rbxassetid://4483345998",
          PremiumOnly = false
 })
@@ -172,7 +172,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-         Name = "👮 POLICE! 👮 Car Dealership Tycoon",
+         Name = "Car Dealership Tycoon",
          Icon = "rbxassetid://4483345998",
          PremiumOnly = false
 })
@@ -185,6 +185,20 @@ Tab:AddButton({
          loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()
          end)
          end 
+})
+
+Tab:AddButton({
+	Name = "Golden Hub (no key)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wheel hub(key)",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+  	end    
 })
 
 local Tab = Window:MakeTab({
@@ -215,9 +229,16 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-        Name = "[🍀ST.PATTY] Pet Simulator X!",
+        Name = "Pet Simulator X",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "ROFAST(no key)",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/PtvfTEsa'))()
+  	end    
 })
 
 Tab:AddButton({
@@ -235,7 +256,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "BedWars 🗡 [MURDER IN BEDTOWN!]",
+	Name = "BedWars",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -296,23 +317,56 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-        Name = "Car Dealership Tycoon",
+        Name = "DOORS",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "Golden Hub (no key)",
+	Name = "Doors Auto Walk(NO key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+        loadstring(game:HttpGet("https://shz.al/Msry64AaB8aFnzRNKfhAytAJ"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "GIDROGEN SCRIPT(key)",
+	Callback = function()
+        getgenv().key = "CammyALilHornyEveryDayAllDaysSmileNigger";
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PerfectusMim/OXYGEN-HUB-/main/hub"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Wheel hub(key)",
+	Name = "poopdoors(NO key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
   	end    
 })
 
+local Tab = Window:MakeTab({
+        Name = "Michaels Zombies",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
 
+Tab:AddButton({
+	Name = "AdvanceTech Michael Zombie V1(key)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/femf2.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+        Name = "Pet Rift",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Simple Gui(key)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/petrift"))()
+  	end    
+})
