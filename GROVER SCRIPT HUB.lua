@@ -281,3 +281,16 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+        Name = "Ninja tycoon",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Open  script  (key)",
+	Callback = function()
+        Icon = "rbxassetid://4483345998",
+      	loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()	
+  	end    
+})
