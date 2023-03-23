@@ -750,8 +750,6 @@ Tab:AddButton({
     end    
 })
 
-Giant Simulator
-
 local Tab = Window:MakeTab({
     Name = "Giant Simulator",
     Icon = "rbxassetid://4483345998",
