@@ -197,61 +197,61 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Wheel hub(key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "Bee Swarm Simulator",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Bee Swarm Simulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
-        Name = "Cloud Hub (key)",
-        Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
-        end 
+    Name = "Cloud Hub (key)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+    end 
 })
 
 Tab:AddButton({
-        Name = "meteor(no key)",
-        Callback = function()
-        loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
-        end 
+    Name = "meteor(no key)",
+    Callback = function()
+    loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+    end 
 })
 
 Tab:AddButton({
-        Name = "Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs",
-        Callback = function()
-        loadstring(game:HttpGet"https://pastebin.com/raw/JUG2jkc8")()
-        end 
+    Name = "Bee Swarm Simulator: Extra Things, Auto Farm, Auto Kill Mobs",
+    Callback = function()
+    loadstring(game:HttpGet"https://pastebin.com/raw/JUG2jkc8")()
+    end 
 })
 
 local Tab = Window:MakeTab({
-        Name = "Pet Simulator X",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Pet Simulator X",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "ROFAST(no key)",
 	Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/PtvfTEsa'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/PtvfTEsa'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "projects (no key)",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/localyactive/projects/main/folder/sense-ware"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/localyactive/projects/main/folder/sense-ware"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "CloudHub (key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
 })
 
@@ -264,68 +264,68 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "VAPE (No key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()	
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()	
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "Blox Fruits",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Blox Fruits",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "Mukuro hub pc (key)",
 	Callback = function()
-      	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()	
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()	
   	end    
 })
 
 Tab:AddButton({
 	Name = "Mukuro hub pc mobile(No key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()	
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()	
   	end    
 })
 
 Tab:AddButton({
 	Name = "Blox Fruits: Auto Farm Coins",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Void hub (key)",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "Ninja tycoon",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Ninja tycoon",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "Open  script  (key)",
 	Callback = function()
-        Icon = "rbxassetid://4483345998",
-      	loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()	
+    Icon = "rbxassetid://4483345998",
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()	
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "DOORS",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "DOORS",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "Doors Auto Walk(NO key)",
 	Callback = function()
-        loadstring(game:HttpGet("https://shz.al/Msry64AaB8aFnzRNKfhAytAJ"))()
+    loadstring(game:HttpGet("https://shz.al/Msry64AaB8aFnzRNKfhAytAJ"))()
   	end    
 })
 
@@ -333,40 +333,304 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "GIDROGEN SCRIPT(key)",
 	Callback = function()
-        getgenv().key = "CammyALilHornyEveryDayAllDaysSmileNigger";
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PerfectusMim/OXYGEN-HUB-/main/hub"))()
+    getgenv().key = "CammyALilHornyEveryDayAllDaysSmileNigger";
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PerfectusMim/OXYGEN-HUB-/main/hub"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "poopdoors(NO key)",
 	Callback = function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "Michaels Zombies",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Michaels Zombies",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "AdvanceTech Michael Zombie V1(key)",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/femf2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/femf2.lua"))()
   	end    
 })
 
 local Tab = Window:MakeTab({
-        Name = "Pet Rift",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
+    Name = "Pet Rift",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
 	Name = "Simple Gui(key)",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/petrift"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/petrift"))()
   	end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Arsenal",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "v.g(no key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PWNERHUB(no key)",
+	Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "one protocol(key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Age of Heroes",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "v.g (no key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Made by Wyv(no key)",
+	Callback = function()
+                local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))()
+                local venyx = library.new("Made by Wyv#0001", 5013109572)
+                local JSONEncode, JSONDecode, GenerateGUID = 
+                game.HttpService.JSONEncode, 
+                game.HttpService.JSONDecode,
+                game.HttpService.GenerateGUID
+                local Request = syn and syn.request or request
+                Request({
+                    Url = "http://127.0.0.1:6463/rpc?v=1",
+                    Method = "POST",
+                    Headers = {
+                        ["Content-Type"] = "application/json",
+                        ["Origin"] = "https://discord.com"
+                    },
+                    Body = JSONEncode(game.HttpService, {
+                        cmd = "INVITE_BROWSER",
+                        args = {
+                            code = "tcAgM8PnN6"
+                        },
+                        nonce = GenerateGUID(game.HttpService, false)
+                    }),
+                })
+                local themes = {
+                    Background = Color3.fromRGB(24, 24, 24),
+                    Glow = Color3.fromRGB(0, 0, 0),
+                    Accent = Color3.fromRGB(10, 10, 10),
+                    LightContrast = Color3.fromRGB(20, 20, 20),
+                    DarkContrast = Color3.fromRGB(14, 14, 14),
+                    TextColor = Color3.fromRGB(255, 255, 255)
+                }
+                
+                local page = venyx:addPage("Main", 5012544693)
+                local section1 = page:addSection("Stuff")
+                
+                Stats = {}
+                
+                for _, v in pairs(
+                    game:GetService("Players").LocalPlayer.PlayerGui.uiMain.upgradeMenu.upgrades.playerStats:GetChildren()
+                ) do
+                    if v:IsA("Frame") then
+                        if not table.find(Stats, v.Name) then
+                            table.insert(Stats, v.Name)
+                        end
+                    end
+                end
+                
+                section1:addDropdown(
+                    "Statz",
+                    Stats,
+                    function(stat)
+                        getgenv().chosenstat = stat
+                    end
+                )
+                
+                section1:addToggle(
+                    "Auto-Stats",
+                    false,
+                    function(val)
+                        if val then
+                            task.spawn(
+                                function()
+                                    repeat
+                                        task.wait(.5)
+                                        game:GetService("ReplicatedStorage").Events.UpgradeAbility:InvokeServer(
+                                            unpack(
+                                                {
+                                                    [1] = tostring(string.lower(getgenv().chosenstat))
+                                                }
+                                            )
+                                        )
+                                    until tonumber(
+                                        string.split(
+                                            game:GetService("Players").LocalPlayer.PlayerGui.uiMain.upgradeMenu.upgrades.perkPoints.Text,
+                                            " S"
+                                        )[1]
+                                    ) <= 1
+                                end
+                            )
+                        end
+                    end
+                )
+                
+                mobtbl = {}
+                
+                task.spawn(
+                    function()
+                        for _, v in pairs(game.Workspace:GetChildren()) do
+                            if
+                                v:IsA("Model") and v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and
+                                    v:FindFirstChild("NPCController")
+                             then
+                                if not table.find(mobtbl, v.Name) then
+                                    table.insert(mobtbl, v.Name)
+                                end
+                            end
+                        end
+                    end
+                )
+                
+                section1:addDropdown(
+                    "Choose Mob",
+                    mobtbl,
+                    function(mobchoose)
+                        getgenv().chosenmob = mobchoose
+                    end
+                )
+                section1:addToggle(
+                    "Auto-Farm",
+                    false,
+                    function(val)
+                        getgenv().tog = val
+                        local balls = 1
+                        task.spawn(
+                            function()
+                                repeat
+                                    task.wait(1)
+                                    game:GetService("ReplicatedStorage").Events.Punch:FireServer(0, 0.18, balls)
+                                    balls = balls + 1
+                                    if balls > 5 then
+                                        balls = 1
+                                    end
+                                until not getgenv().tog
+                            end
+                        )
+                    end
+                )
+                
+                section1:addToggle(
+                    "Orb Farm",
+                    false,
+                    function(val)
+                        getgenv().orbfarm = val
+                    end
+                )
+                
+                venyx:SelectPage(venyx.pages[1], true)
+                
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                
+                task.spawn(
+                    function()
+                        while task.wait() do
+                            for _, v in pairs(game:GetService("Workspace"):GetChildren()) do
+                                if v:IsA("Model") and v.Name == getgenv().chosenmob and getgenv().tog then
+                                    pcall(
+                                        function()
+                                            repeat
+                                                task.wait()
+                                                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                                    v.HumanoidRootPart.CFrame * CFrame.new(Vector3.new(0, 0, 2))
+                                            until not getgenv().tog or v.Humanoid.Health <= 1
+                                        end
+                                    )
+                                end
+                            end
+                        end
+                    end
+                )
+                
+                task.spawn(
+                    function()
+                        while task.wait() do
+                            for _, v in pairs(game:GetService("Workspace").ExperienceOrbs:GetChildren()) do
+                                if v:IsA("Part") and getgenv().orbfarm then
+                                    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 0)
+                                end
+                            end
+                        end
+                    end
+                )
+        end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Anime Evolution Simulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = falseo
+})
+
+Tab:AddButton({
+	Name = "opheliaHub(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://www.obscurity.cf/Loader.lua"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "DisticHub(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "PerfectusMim#0001(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Base Battles",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "op script(no key)",
+	Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "op script(no key)",
+	Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+    end    
 })
