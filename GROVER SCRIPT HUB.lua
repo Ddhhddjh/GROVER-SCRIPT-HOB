@@ -622,9 +622,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "op script(no key)",
+	Name = "Bitz#5704(?)",
 	Callback = function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+    loadstring(game.HttpGet("https://bitz.gay/roblox/scripts/BaseBattles.lua"))()
     end    
 })
 
@@ -634,3 +634,191 @@ Tab:AddButton({
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
     end    
 })
+
+local Tab = Window:MakeTab({
+    Name = "Build a Boat for Treasure",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Pog Hub(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "v.g(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay/loader/main/script.lua"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Crate Opening Incremental",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Facts hub(key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Loader",true))();
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Driving Empire",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Pearl(?)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Loader",true))();
+    end    
+})
+
+Tab:AddButton({
+	Name = "uzer hub(?)",
+	Callback = function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/17307/ytcopyrightabusershub.lua'))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Wheel hub(key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/15911/Wheelhub.lua'))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Evade",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Real King#0001(key)",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "roflux(key)",
+	Callback = function()
+pcall(function()
+    loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+  end)
+    end    
+})
+
+Tab:AddButton({
+	Name = "one protocol(key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Find The Simpsons",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "open scrtp(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyElPekka/RobloxHub/main/Find%20The%20Simpsons%20Gui%22",true))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Find The Family Guy",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "vsync(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vsyncdeveloper/vsync/main/Find-the-family-guy.lua"))()
+    end    
+})
+
+Giant Simulator
+
+local Tab = Window:MakeTab({
+    Name = "Giant Simulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "factshub(no key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://factshub.vercel.app'))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Protected_by_MoonSecV2(key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Idle Heroes Simulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Hayz(no key)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kooggy/Scripts/main/Idle%20Heroes%20Simulator%20Source.lua"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Inferno X(no key)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Nicuse(key)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Jenga",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "TP Win(no key)",
+	Callback = function()
+    local oh1 = CFrame.new(-65, 100, -20)
+    local oh2 = game:GetService("Players")
+    local oh3 = oh2.LocalPlayer.Character.HumanoidRootPart
+    end    
+})
+
+Tab:AddButton({
+	Name = "factshub(key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://factshub.vercel.app'))()
+    end    
+})
+
+
