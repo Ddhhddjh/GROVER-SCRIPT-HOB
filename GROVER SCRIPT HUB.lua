@@ -13,12 +13,20 @@ Tab:AddButton({
               end    
 })
     
-Tab:AddTextbox({
-              Name = "dIscord",
-              Default = "https://discord.gg/wK2CWEmT5Y",
-              TextDisappear = false,
-              Callback = function(txt)
-              end	  
+Tab:AddButton({
+    Name = "discord",
+    Callback = function()   
+        local text = "https://discord.gg/wK2CWEmT5Y"
+        if syn then
+            syn.write_clipboard(text)
+        elseif setclipboard then
+            setclipboard(text)
+        else
+            -- Если нет ни syn.write_clipboard, ни setclipboard,
+            -- то выведем сообщение об ошибке.
+            print("Копирование текста невозможно!")
+        end
+    end    
 })
 
 Tab:AddButton({
