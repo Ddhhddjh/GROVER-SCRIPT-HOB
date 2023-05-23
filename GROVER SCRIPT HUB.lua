@@ -16,7 +16,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "discord",
     Callback = function()   
-        local text = "https://discord.gg/wK2CWEmT5Y"
+        local text = ""
         if syn then
             syn.write_clipboard(text)
         elseif setclipboard then
@@ -30,7 +30,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-              Name = "wEbUS#3438",
+              Name = "947069148318539816",
               Callback = function()
                end    
 })
