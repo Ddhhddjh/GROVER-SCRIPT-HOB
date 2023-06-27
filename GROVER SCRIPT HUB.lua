@@ -16,23 +16,25 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "discord",
     Callback = function()   
-        local text = ""
+        local text = "https://discord.gg/F3A7RPGwet"
         if syn then
             syn.write_clipboard(text)
         elseif setclipboard then
             setclipboard(text)
-        else
-            -- Если нет ни syn.write_clipboard, ни setclipboard,
-            -- то выведем сообщение об ошибке.
-            print("Копирование текста невозможно!")
         end
     end    
 })
 
 Tab:AddButton({
-              Name = "947069148318539816",
+              Name = "Webus",
               Callback = function()
-               end    
+              local text = ".webus"
+        if syn then
+            syn.write_clipboard(text)
+        elseif setclipboard then
+            setclipboard(text)
+        end
+    end       
 })
 
 
@@ -139,7 +141,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-           Name = "v.g (not key)",
+           Name = "v.g",
            Callback = function()
            loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
            end 
@@ -166,14 +168,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-         Name = "v.g (not key)",
+         Name = "v.g",
          Callback = function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
          end 
 })
 
 Tab:AddButton({
-         Name = "ProjectNexus(key)",
+         Name = "ProjectNexus",
          Callback = function()
          loadstring(game:HttpGet("https://pastebin.com/raw/9Ji5FXhJ"))()
          end 
@@ -186,7 +188,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-         Name = "Blue Lock(no key)",
+         Name = "Blue Lock",
          Callback = function()
          pcall(function()
          repeat wait() until game:IsLoaded()
@@ -196,14 +198,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Golden Hub (no key)",
+	Name = "Golden Hub",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Wheel hub(key)",
+	Name = "Wheel hub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
@@ -216,14 +218,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-    Name = "Cloud Hub (key)",
+    Name = "Cloud Hub",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
     end 
 })
 
 Tab:AddButton({
-    Name = "meteor(no key)",
+    Name = "meteor",
     Callback = function()
     loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
     end 
@@ -243,21 +245,21 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "ROFAST(no key)",
+	Name = "ROFAST",
 	Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/PtvfTEsa'))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "projects (no key)",
+	Name = "projects",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/localyactive/projects/main/folder/sense-ware"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "CloudHub (key)",
+	Name = "CloudHub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
   	end    
@@ -270,7 +272,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "VAPE (No key)",
+	Name = "VAPE",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()	
   	end    
@@ -283,14 +285,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Mukuro hub pc (key)",
+	Name = "Mukuro hub pc",
 	Callback = function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()	
   	end    
 })
 
 Tab:AddButton({
-	Name = "Mukuro hub pc mobile(No key)",
+	Name = "Mukuro hub pc mobile",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()	
   	end    
@@ -304,7 +306,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Void hub (key)",
+	Name = "Void hub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
   	end    
@@ -317,7 +319,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Open  script  (key)",
+	Name = "Open  script",
 	Callback = function()
     Icon = "rbxassetid://4483345998",
     loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()	
@@ -331,7 +333,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Doors Auto Walk(NO key)",
+	Name = "Doors Auto Walk",
 	Callback = function()
     loadstring(game:HttpGet("https://shz.al/Msry64AaB8aFnzRNKfhAytAJ"))()
   	end    
@@ -339,7 +341,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "GIDROGEN SCRIPT(key)",
+	Name = "GIDROGEN SCRIPT",
 	Callback = function()
     getgenv().key = "CammyALilHornyEveryDayAllDaysSmileNigger";
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PerfectusMim/OXYGEN-HUB-/main/hub"))()
@@ -347,7 +349,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "poopdoors(NO key)",
+	Name = "poopdoors",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
   	end    
@@ -360,7 +362,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "AdvanceTech Michael Zombie V1(key)",
+	Name = "AdvanceTech Michael Zombie",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/femf2.lua"))()
   	end    
@@ -373,7 +375,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Simple Gui(key)",
+	Name = "Simple Gui",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/petrift"))()
   	end    
@@ -386,21 +388,21 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "v.g(no key)",
+	Name = "v.g",
 	Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "PWNERHUB(no key)",
+	Name = "PWNERHUB",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "one protocol(key)",
+	Name = "one protocol",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
     end    
@@ -413,14 +415,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "v.g (no key)",
+	Name = "v.g",
 	Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
     end    
 })
 
 Tab:AddButton({
-	Name = "Made by Wyv(no key)",
+	Name = "Made by Wyv",
 	Callback = function()
                 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))()
                 local venyx = library.new("Made by Wyv#0001", 5013109572)
@@ -603,21 +605,21 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "opheliaHub(no key)",
+	Name = "opheliaHub",
 	Callback = function()
     loadstring(game:HttpGet("https://www.obscurity.cf/Loader.lua"))()
     end    
 })
 
 Tab:AddButton({
-	Name = "DisticHub(no key)",
+	Name = "DisticHub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
     end    
 })
 
 Tab:AddButton({
-	Name = "PerfectusMim#0001(no key)",
+	Name = "PerfectusMim#0001",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
     end    
@@ -637,7 +639,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "op script(no key)",
+	Name = "op script",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
     end    
@@ -650,14 +652,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Pog Hub(no key)",
+	Name = "Pog Hub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
     end    
 })
 
 Tab:AddButton({
-	Name = "v.g(no key)",
+	Name = "v.g",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay/loader/main/script.lua"))()
     end    
@@ -670,7 +672,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Facts hub(key)",
+	Name = "Facts hub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Loader",true))();
     end    
@@ -697,7 +699,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Wheel hub(key)",
+	Name = "Wheel hub",
 	Callback = function()
     loadstring(game:HttpGet('https://scripts.luawl.com/15911/Wheelhub.lua'))()
     end    
@@ -710,14 +712,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Real King#0001(key)",
+	Name = "Real King#0001",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
     end    
 })
 
 Tab:AddButton({
-	Name = "roflux(key)",
+	Name = "roflux",
 	Callback = function()
 pcall(function()
     loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
@@ -726,7 +728,7 @@ pcall(function()
 })
 
 Tab:AddButton({
-	Name = "one protocol(key)",
+	Name = "one protocol",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
     end    
@@ -739,7 +741,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "open scrtp(no key)",
+	Name = "open scrtp",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyElPekka/RobloxHub/main/Find%20The%20Simpsons%20Gui%22",true))()
     end    
@@ -752,7 +754,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "vsync(no key)",
+	Name = "vsync",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vsyncdeveloper/vsync/main/Find-the-family-guy.lua"))()
     end    
@@ -765,14 +767,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "factshub(no key)",
+	Name = "factshub",
 	Callback = function()
     loadstring(game:HttpGet('https://factshub.vercel.app'))()
     end    
 })
 
 Tab:AddButton({
-	Name = "Protected_by_MoonSecV2(key)",
+	Name = "Protected_by_MoonSecV2",
 	Callback = function()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
     end    
@@ -785,21 +787,21 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Hayz(no key)",
+	Name = "Hayz",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kooggy/Scripts/main/Idle%20Heroes%20Simulator%20Source.lua"))()
     end    
 })
 
 Tab:AddButton({
-	Name = "Inferno X(no key)",
+	Name = "Inferno X",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
     end    
 })
 
 Tab:AddButton({
-	Name = "Nicuse(key)",
+	Name = "Nicuse",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
     end    
@@ -812,7 +814,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "TP Win(no key)",
+	Name = "TP Win",
 	Callback = function()
     local oh1 = CFrame.new(-65, 100, -20)
     local oh2 = game:GetService("Players")
@@ -821,10 +823,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "factshub(key)",
+	Name = "factshub",
 	Callback = function()
     loadstring(game:HttpGet('https://factshub.vercel.app'))()
     end    
 })
-
-
