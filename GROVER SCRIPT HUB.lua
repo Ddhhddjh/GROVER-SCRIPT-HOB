@@ -188,6 +188,16 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
+         Name = "Ultimate hub",
+         Callback = function()
+         pcall(function()
+         repeat wait() until game:IsLoaded()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
+         end)
+         end 
+})
+
+Tab:AddButton({
          Name = "Blue Lock",
          Callback = function()
          pcall(function()
